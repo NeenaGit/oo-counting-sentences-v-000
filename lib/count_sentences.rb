@@ -8,7 +8,6 @@ class String
 
   def question?
     self.end_with?("?")
-    binding.pry
   end
 
   def exclamation?
